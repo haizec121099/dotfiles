@@ -1,0 +1,17 @@
+[core]
+    autocrlf = input
+    editor = vim
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    wt = worktree
+    lol = log --oneline --date=short
+    po = pull origin
+    ress = restore --staged
+    res = restore
+    logod = log --oneline --decorate --graph --all 
+    logd = log --decorate --graph --all 
+    d = diff
+[pull]
+	rebase = false
