@@ -11,6 +11,6 @@ link_file() {
     ln -s "$src" "$dest"
 }
 
-link_file "/gitconfig/config" "$HOME/.gitconfig"
-link_file "./tmux/config" "../.tmux.conf"
-link_file "./neovim" "./.config/nvim"
+link_file "$DOTFILES_DIR/gitconfig/config" "$HOME/.gitconfig"
+link_file "$DOTFILES_DIR/tmux/config" "$HOME/.tmux.conf"
+link_file "$DOTFILES_DIR/neovim" "$HOME/.config/nvim"
